@@ -3,13 +3,13 @@
     --dark-gray: rgb(31,31,31);
     --white: rgb(245,245,245);
     --darker-white: rgb(236,236,236);
+    --extra-black: rgb(0,0,0)
 }
 
 body {
     font-family: bree-serif;
     margin: 0px;
-    color: var(--white);
-    background: var(--darker-white);
+    background-color: var(--darker-white);
 }
 
 @font-face {
@@ -18,30 +18,28 @@ body {
 }
 
 header {
-    background: var(--dark-gray);
+    background-color: var(--dark-gray);
     height: 20vh;
     display: flex;
-    justify-content: space-between;
     padding: 0px 24px;
+    justify-content: space-around;
+}
+div{
+    margin-top: 10px;
 }
 
-.left, header ul {
+.position{
     display: flex;
-    align-items: center;
+
+    position: absolute;
+    color: aqua;
 }
 
-header ul li {
-    margin: 24px;
-    list-style: none;
-    color: var(--white);
+.flex{
+    display: flex;
 }
 
-a {
-    color: white;
-    font-size: 1.5em;
-}
-
-.logo-name {
-    margin-left: 24px;
-    font-size: 1.5em;
+.size{
+    width: 100vw;
+    height: 50vh;
 }
