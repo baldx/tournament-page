@@ -16,7 +16,13 @@ body {
     font-family: bree-serif;
     src: url('assets/BreeSerif-Regular.ttf');
 }
+div{
+    margin-top: 10px;
+}
 
+.flex{
+    display: flex;
+}
 header {
     background: var(--dark-gray);
     height: 20vh;
@@ -29,7 +35,16 @@ header .left, header ul {
     display: flex;
     align-items: center;
 }
+.position{
+    display: flex;
+    position: absolute;
+    color: aqua;
+}
 
+.size{
+    width: 100vw;
+    height: 50px;
+}
 header ul li {
     margin: 24px;
     list-style: none;
