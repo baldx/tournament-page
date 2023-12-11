@@ -1,0 +1,15 @@
+:root {
+    --black: rgb(21,21,21);
+    --dark-gray: rgb(31,31,31);
+    --white: rgb(245,245,245);
+    --darker-white: rgb(236,236,236);
+}
+
+body {
+    font-family: bree-serif;
+}
+
+@font-face {
+    font-family: bree-serif;
+    src: url('assets/BreeSerif-Regular.ttf');
+}
