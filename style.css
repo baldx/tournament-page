@@ -25,7 +25,7 @@ header {
     padding: 0px 24px;
 }
 
-.left, header ul {
+header .left, header ul {
     display: flex;
     align-items: center;
 }
@@ -48,4 +48,24 @@ a {
 
 .logo {
     height: 50px;
+}
+
+.wellcome-image {
+    width: inherit;
+    background: rgba(0, 0, 0, 0.5);
+    width: 30vw;
+}
+
+.right {
+    color: var(--black);
+}
+
+.hero {
+    display: flex;
+    margin: 2em;
+    justify-content: space-evenly;
+}
+
+.right .title {
+    font-size: 3em;
 }
