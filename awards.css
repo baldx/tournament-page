@@ -1,0 +1,45 @@
+:root {
+    --black: rgb(21,21,21);
+    --dark-gray: rgb(31,31,31);
+    --white: rgb(245,245,245);
+    --darker-white: rgb(236,236,236);
+    --extra-black: rgb(0,0,0)
+}
+
+body {
+    font-family: bree-serif;
+    margin: 0px;
+    background-color: var(--darker-white);
+}
+
+@font-face {
+    font-family: bree-serif;
+    src: url('assets/BreeSerif-Regular.ttf');
+}
+
+header {
+    background-color: var(--dark-gray);
+    height: 20vh;
+    display: flex;
+    padding: 0px 24px;
+    justify-content: space-around;
+}
+div{
+    margin-top: 10px;
+}
+
+.position{
+    display: flex;
+
+    position: absolute;
+    color: aqua;
+}
+
+.flex{
+    display: flex;
+}
+
+.size{
+    width: 100vw;
+    height: 50vh;
+}
