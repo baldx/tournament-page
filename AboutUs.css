@@ -61,7 +61,8 @@ main{
     width: 100vw;
     height: 200vh;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1{
@@ -70,6 +71,24 @@ h1{
 .First-Header{
     font-size: 50px;
 }
+
 h4{
     margin-top: 0px;
+}
+
+.CenterImage{
+    height: 750px;
+}
+
+.KnightGif{
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.About-Us{
+    color: var(--black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
