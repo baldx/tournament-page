@@ -97,10 +97,18 @@ img {
     font-size: 1.5em;
 }
 
-main {
-    height: 100vh;
+.card-container {
+    height: 50vh;
     display: flex;
     justify-content: space-evenly;
+    margin-top: 32px;
+}
+
+main {
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin-top: 32px;
 }
 
@@ -125,4 +133,42 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.highlights-container {
+    color: black;
+    margin-bottom: 48px;
+    height: 130vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.highlights-container .title {
+    text-align: center;
+}
+
+.highlights {
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.highlights img {
+    height: 100vh;
+    width: 40vh;
+    text-align: center;
+}
+
+.highlight-text-container {
+    height: 100vh;
+    display: flex;
+    font-size: 1.4em;
+    height: inherit;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.highlight-text {
+    width: 50vw;
 }
