@@ -10,14 +10,12 @@ body {
     margin: 0px;
     color: var(--white);
     background: var(--darker-white);
+    overflow-x: hidden;
 }
 
 @font-face {
     font-family: bree-serif;
     src: url('assets/BreeSerif-Regular.ttf');
-}
-div{
-    margin-top: 10px;
 }
 
 .flex{
@@ -41,10 +39,11 @@ header .left, header ul {
     color: aqua;
 }
 
-.size{
+.size {
     width: 100vw;
     height: 50px;
 }
+
 header ul li {
     margin: 24px;
     list-style: none;
@@ -65,22 +64,30 @@ a {
     height: 50px;
 }
 
-.wellcome-image {
-    width: inherit;
+.hero {
+    display: flex;
+}
+
+.welcome-image {
     background: rgba(0, 0, 0, 0.5);
-    width: 30vw;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
 }
 
 .right {
     color: var(--black);
 }
 
-.hero {
-    display: flex;
-    margin: 2em;
-    justify-content: space-evenly;
+.welcome-text {
+    position: absolute;
+    margin: 36px;
 }
 
-.right .title {
-    font-size: 3em;
+.title {
+    font-size: 4em;
+}
+
+.sub {
+    font-size: 1.5em;
 }
