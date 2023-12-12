@@ -49,3 +49,24 @@ a {
 .logo {
     height: 50px;
 }
+
+.Welcome-Header{
+    color: var(--black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main{
+    width: 100vw;
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    margin: 0px;
+}
+.First-Header{
+    font-stretch: 50px;
+}
