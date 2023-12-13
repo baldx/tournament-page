@@ -93,40 +93,39 @@ a {
 }
 
 .image-container {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-  margin-left: 10px;
+    display: flex;
+    align-items: center;
+
+    margin-left: 10px;
+    max-width: 100%; 
+  }
   
-}
-
-.image-container img {
-  display: flex;
-  width: 60vw;
-  height: 60vh;
-  margin-left: 1.5vw;
-  margin-right: 1.5vw;
-  border-radius: 15px;
-  object-fit: cover;
-
-}
-
-.text-container h3 {
-  display: flex;
-  margin: 3px;
-  font-size: 40px;
-  color: black;
-  justify-content: center ;
+  .image-container img {
+    width: 50vw;
+    height: 50vh;
+    border-radius: 15px;
+  }
   
-}
-
+  .text-containerr {
+    flex-grow: 1;
+  }
   
+  .text-container h3 {
+    margin: 3px;
+    font-size: 2em;
+    color: black;
+    text-align: center; 
+  }
+  
+  .text-container p {
+    margin-top: 5px;
+    color: var(--black);
+    padding: 15px;
+  
+  }
 
-.text-container p { 
-  display: flex;
-  margin-top: 5px;
-  color: var(--black);
-  margin-left: 5px;
-
-}
-
+  .body2{
+        margin-left: 15vw;
+        margin-right: 15vw;
+  }
+  
