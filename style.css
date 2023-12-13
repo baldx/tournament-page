@@ -36,7 +36,6 @@ header .left, header ul {
 .position{
     display: flex;
     position: absolute;
-    color: aqua;
 }
 
 .size {
@@ -171,4 +170,15 @@ main {
 
 .highlight-text {
     width: 50vw;
+}
+
+/*FOOTER STYLE*/
+
+footer {
+    background: var(--dark-gray);
+    height: 100vh;
+}
+
+.contact-container {
+    background-color: red;
 }
