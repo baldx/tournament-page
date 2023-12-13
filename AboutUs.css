@@ -50,6 +50,7 @@ a {
 
 .logo {
     height: 50px;
+    transition: all 200ms ease-in-out;
 }
 
 .Welcome-Header{
@@ -162,6 +163,92 @@ h4{
     object-fit: cover;
     position: relative;
     top: 100px;
+}
+
+/*FOOTER*/
+
+footer {
+    color: white;
+    margin-top: 80vh; /*Leta efter bättre lösning*/
+    background: var(--white);
+    background: var(--dark-gray);
+    height: 20vh;
+}
+
+.credits {
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    width: 100vw;
+    align-items: center;
+}
+
+.credit-right a img {
+    width: 32px;
+}
+
+.left-credits, .credit-right {
+    margin: 0px 5%;
+    display: flex;
+}
+
+.left-credits .logo-name {
+    font-size: 2em;
+}
+
+.credit-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.credit-contributors {
+    font-size: 2em;
+}
+
+.link-section {
+    display: flex;
+    justify-content: start;
+}
+
+.link-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.link-container a {
+    display: flex;
+    justify-content: center;
+}
+
+/*ANIMATION*/
+
+header a {
+    color: white;
+    font-size: 1.5em;
+    transition: all 200ms ease-in-out;
+  
+}
+  
+header a:hover {
+    color:  purple;
+    font-size: 30px;
+}
+
+.ig {
+    transition: all 200ms ease-in-out;
+}
+
+.ig:hover {
+    transform: scale(1.5);
+}
+
+.submit:hover {
+    transform: scale(1.3);
+}
+
+.logo:hover {
+    transform: scale(1.4);
 }
 
 @media (max-width: 1024px){
