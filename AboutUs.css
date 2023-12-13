@@ -53,6 +53,7 @@ a {
 }
 
 .Welcome-Header{
+    margin-top: 4vh;
     color: var(--black);
     display: flex;
     flex-direction: column;
@@ -75,16 +76,17 @@ h1{
 }
 
 h4{
-    margin-top: 0px;
+    margin-top: 1vh;
 }
 
 .CenterImage{
-    height: 750px;
+    margin-top: 2vh;
+    height: 50vw;
 }
 
 .KnightGif{
     height: 400px;
-    width: 300px;
+    width: 15vw;
     object-fit: cover;
     position: relative;
     top: 175px;
@@ -102,17 +104,19 @@ h4{
 .Top-Section{
     display: flex;
     gap: 48px;
+    width: 100vw;
+    justify-content: center;
 }
 
 .Top-Section-Text p{
-    width: 750px;
+    width: 45vw;
     font-size: 25px;
     font-weight: 100;
 }
 
 .Paragraph-Text{
-    height: 475px;
-    width: 750px;
+    height: 50vh;
+    width: 40vw;
     font-size: 18px;
     font-weight: 100;
     display: flex;
@@ -132,17 +136,19 @@ h4{
 .Bottom-Section{
     display: flex;
     gap: 48px;
+    width: 100vw;
+    justify-content: center;
 }
 
 .Bottom-Section-Text p{
-    width: 750px;
+    width: 40vw;
     font-size: 25px;
     font-weight: 100;
 }
 
 .Bottom-Paragraph-Text{
-    height: 300px;
-    width: 750px;
+    height: 35vh;
+    width: 40vw;
     font-size: 20px;
     font-weight: 100;
     display: flex;
@@ -152,8 +158,99 @@ h4{
 
 .KnightPNG{
     height: 400px;
-    width: 300px;
+    width: 15vw;
     object-fit: cover;
     position: relative;
     top: 100px;
 }
+
+@media (max-width: 1024px){
+
+    .CenterImage{
+        width: 80vw;
+    }
+
+    .Top-Section-Text{
+        height: 110vh;
+    }
+    
+    .Paragraph-Text{
+        height: 105vh;
+    }
+
+    .About-Chess-Horse{
+        margin-top: 50vh;
+    }
+
+    .Bottom-Paragraph-Text{
+        margin-top: 15vh;
+
+    }   
+
+
+    span{
+        margin: 1vh;
+    }
+}    
+
+@media (max-width: 768px){
+
+    .CenterImage{
+        width: 70vw;
+    }
+
+    .Top-Section-Text{
+        height: 105vh;
+    }
+    
+    .Paragraph-Text{
+        height: 120vh;
+    }
+
+    .About-Chess-Horse{
+        margin-top: 90vh;
+    }
+
+    .Bottom-Paragraph-Text{
+        margin-top: 27vh;
+
+    }   
+
+
+    span{
+        margin: 2vh;
+    }
+}    
+
+@media (max-width: 425px){
+
+    .First-Header{
+        font-size: 3vh;
+    }
+
+    .CenterImage{
+        width: 90vw;
+    }
+
+    .Top-Section-Text{
+        height: 105vh;
+    }
+    
+    .Paragraph-Text{
+        height: 120vh;
+    }
+
+    .About-Chess-Horse{
+        margin-top: 90vh;
+    }
+
+    .Bottom-Paragraph-Text{
+        margin-top: 27vh;
+
+    }   
+
+
+    span{
+        margin: 2vh;
+    }
+}    
