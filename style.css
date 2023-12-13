@@ -507,3 +507,14 @@ header a:hover {
         margin-top: 25vh;
     }
 }
+
+/*JAVASCRIPT with CSS*/
+
+#toggleMode {
+    width: 48px;
+    transition: all 200ms ease-in-out;
+}
+
+#toggleMode:hover {
+    transform: scale(1.5);
+}
