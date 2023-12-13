@@ -305,7 +305,7 @@ textarea {
 
 .submit {
     margin-top: 8px;
-    width: 5vw;
+    width: 80px;
     padding: 8px;
     font-size: 1em;
     border: none;
@@ -348,5 +348,162 @@ header a:hover {
 
 /*MEDIA QUERIES*/
 
-/*HEADER*/
+@media screen and (max-width: 1000px) {
+    .tournament-title {
+        font-size: 1.2em;
+    }
 
+    .highlight-text {
+        font-size: 0.8em;
+    }
+
+    .contact-title {
+        font-size: 2em;
+    }
+
+    label, input {
+        font-size: 1em;
+    }
+
+    .submit {
+        width: 100%;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .highlights img {
+        width: 300px;
+        height: 900px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    ul li a {
+        font-size: 1.3em;
+    }
+
+    header ul li {
+        margin: 12px;
+    }
+
+    .tournament-title {
+        font-size: 1em;
+    }
+
+    .card-container {
+        margin-bottom: 30vh;
+    }
+
+    .highlight-text {
+        font-size: 0.6em;
+    }
+
+    .highlight-text-container {
+        justify-content: space-evenly;
+    }
+
+    input {
+        width: 150px;
+    }
+
+    textarea {
+        height: 150px;
+    }
+
+    .contact-title {
+        font-size: 1.5em;
+    }
+
+    .contact-container {
+        gap: 20px;
+    }
+
+    .contact-text {
+        font-size: 0.8em;
+    }
+
+    .left-credits .logo-name {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .highlights img {
+        display: none;
+    }
+
+    .highlights-container .title {
+        font-size: 3em;
+    }
+
+    .card-container {
+        margin-bottom: 40vh;
+    }
+
+    .logo-name {
+        font-size: 1em;
+    }
+
+    ul li a {
+        font-size: 0.8em;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-text {
+        width: 80vw;
+        align-self: center;
+    }
+
+    .contact-title {
+        width: 80vw;
+        align-self: center;
+    }
+
+    footer {
+        margin-top: 15vh;
+    }
+
+    form {
+        width: 80vw;
+        margin-bottom: 5vh;
+    }
+
+    .left-credits .logo-name {
+        font-size: 0.8em;
+    }
+
+    .credit-contributors {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    ul li a {
+        font-size: 0.8em;
+    }
+
+    .left {
+        width: 150px;
+    }
+
+    header ul li {
+        margin: 4px;
+    }
+
+    ul {
+        padding: 0px;
+    }
+    
+    .card-container {
+        margin-bottom: 50vh;
+    }
+
+    footer {
+        margin-top: 25vh;
+    }
+}
