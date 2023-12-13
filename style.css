@@ -184,13 +184,16 @@ footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background: var(--white);
+    background: var(--darker-white);
     color: var(--black);
 }
 
 .credits {
+    display: flex;
+    justify-content: space-between;
     height: 20vh;
     width: 100vw;
+    align-items: center;
 }
 
 .contact-text {
@@ -259,4 +262,42 @@ textarea {
     background: rgba(174, 169, 169, 0.4);
     width: 90%;
     height: 20vh;
+}
+
+.credit-right a img {
+    width: 32px;
+}
+
+.left-credits, .credit-right {
+    margin: 0px 5%;
+    display: flex;
+}
+
+.left-credits .logo-name {
+    font-size: 2em;
+}
+
+.credit-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.credit-contributors {
+    font-size: 2em;
+}
+
+.link-section {
+    display: flex;
+    justify-content: start;
+}
+
+.link-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.link-container a {
+    display: flex;
+    justify-content: center;
 }
