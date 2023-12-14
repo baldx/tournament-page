@@ -1,8 +1,10 @@
 const submitBtn = document.querySelector('.submit');
 const joinLink = document.querySelectorAll('.join');
 const toggleBtn = document.querySelector('#toggleMode');
+const input = document.querySelectorAll('.input');
 
 submitBtn.addEventListener('click', (e) => {
+    sendEmail()
     e.preventDefault();
 });
 
@@ -12,6 +14,10 @@ joinLink.forEach(e => {
     })
 })
 
-toggleBtn.addEventListener('click', () => {
-    toggleBtn.style.src = '';
-})
+function sendEmail() {
+    input.forEach(e => {
+        e.value = '';
+    })
+
+    alert('Your message has been sent!')
+}
