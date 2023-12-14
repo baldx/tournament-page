@@ -234,7 +234,7 @@ header a:hover {
     width: 100vw;
   }
   .image-container img {
-    width: 0px;
+    display: none;
   }
 }
 @media screen and (max-width: 700px) {
