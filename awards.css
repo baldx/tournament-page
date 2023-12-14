@@ -19,7 +19,7 @@ body {
 
 header {
   background-color: var(--dark-gray);
-  height: 20vh;
+  height: 15vh;
   display: flex;
   justify-content: space-between;
   padding: 0em 24px;
