@@ -1,520 +1,501 @@
 :root {
-    --black: rgb(21,21,21);
-    --dark-gray: rgb(31,31,31);
-    --white: rgb(245,245,245);
-    --darker-white: rgb(236,236,236);
+  --black: rgb(21, 21, 21);
+  --dark-gray: rgb(31, 31, 31);
+  --white: rgb(245, 245, 245);
+  --darker-white: rgb(236, 236, 236);
 }
 
 body {
-    font-family: bree-serif;
-    margin: 0px;
-    color: var(--white);
-    background: var(--darker-white);
-    overflow-x: hidden;
+  font-family: bree-serif;
+  margin: 0px;
+  color: var(--white);
+  background: var(--darker-white);
+  overflow-x: hidden;
 }
 
 @font-face {
-    font-family: bree-serif;
-    src: url('assets/BreeSerif-Regular.ttf');
+  font-family: bree-serif;
+  src: url("assets/BreeSerif-Regular.ttf");
 }
 
-.flex{
-    display: flex;
+.flex {
+  display: flex;
 }
 header {
-    background: var(--dark-gray);
-    height: 15vh;
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 24px;
+  background: var(--dark-gray);
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 24px;
 }
 
-header .left, header ul {
-    display: flex;
-    align-items: center;
+header .left,
+header ul {
+  display: flex;
+  align-items: center;
 }
-.position{
-    display: flex;
-    position: absolute;
+.position {
+  display: flex;
+  position: absolute;
 }
 
 .size {
-    width: 100vw;
-    height: 50px;
+  width: 100vw;
+  height: 50px;
 }
 
 header ul li {
-    margin: 24px;
-    list-style: none;
-    color: var(--white);
+  margin: 24px;
+  list-style: none;
+  color: var(--white);
 }
 
 header a {
-    color: white;
-    font-size: 1.5em;
+  color: white;
+  font-size: 1.5em;
 }
 
 .logo-name {
-    margin-left: 24px;
-    font-size: 1.5em;
+  margin-left: 24px;
+  font-size: 1.5em;
 }
 
 .logo {
-    height: 50px;
-    transition: all 200ms ease-in-out;
+  height: 50px;
+  transition: all 200ms ease-in-out;
 }
 
 .hero {
-    display: flex;
-    height: 100vh;
+  display: flex;
+  height: 100vh;
 }
 
 img {
-    object-fit: cover;
+  object-fit: cover;
 }
 
 .welcome-image {
-    background: rgba(0, 0, 0, 0.5);
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
 }
 
 .right {
-    color: var(--black);
+  color: var(--black);
 }
 
 .welcome-text {
-    position: absolute;
-    margin: 36px;
+  position: absolute;
+  margin: 36px;
 }
 
 .title {
-    font-size: 4em;
+  font-size: 4em;
 }
 
 .sub {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 .card-container {
-    height: 50vh;
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 32px;
+  height: 50vh;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 32px;
 }
 
 main {
-    height: 200vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: 32px;
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 32px;
 }
 
 .card {
-    color: var(--black);
-    width: 30vw;
-    height: 40vh;
+  color: var(--black);
+  width: 30vw;
+  height: 40vh;
 }
 
 .tournament-title a {
-    color: var(--black);
+  color: var(--black);
 }
 
 .image-card {
-    width: 30vw;
-    height: 40vh;
+  width: 30vw;
+  height: 40vh;
 }
 
 .tournament-title {
-    font-size: 1.3em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  font-size: 1.3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .highlights-container {
-    color: black;
-    margin-bottom: 48px;
-    height: 130vh;
-    width: 100vw;
-    background: rgba(0, 0, 0, 0.1);
+  color: black;
+  margin-bottom: 48px;
+  height: 130vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.1);
 }
 
 .highlights-container .title {
-    text-align: center;
+  text-align: center;
 }
 
 .highlights {
-    height: 120vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+  height: 120vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .highlights img {
-    height: 100vh;
-    width: 40vh;
-    text-align: center;
+  height: 100vh;
+  width: 40vh;
+  text-align: center;
 }
 
 .highlight-text-container {
-    height: 100vh;
-    display: flex;
-    font-size: 1.4em;
-    height: inherit;
-    flex-direction: column;
-    justify-content: space-around;
+  height: 100vh;
+  display: flex;
+  font-size: 1.4em;
+  height: inherit;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .highlight-text {
-    width: 50vw;
+  width: 50vw;
 }
 
 /*FOOTER STYLE*/
 
 footer {
-    background: var(--dark-gray);
-    height: 80vh;
+  background: var(--dark-gray);
+  height: 80vh;
 }
 
 .contact-container {
-    height: 60vh;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background: var(--darker-white);
-    color: var(--black);
+  height: 60vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: var(--darker-white);
+  color: var(--black);
 }
 
 .credits {
-    display: flex;
-    justify-content: space-between;
-    height: 20vh;
-    width: 100vw;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  height: 20vh;
+  width: 100vw;
+  align-items: center;
 }
 
 .contact-text {
-    display: flex;
+  display: flex;
 }
 
 .contact-title {
-    font-size: 3em;
+  font-size: 3em;
 }
 
 .contact-text-container {
-    font-size: 1.5em;
-    width: 40vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    height: 50vh;
+  font-size: 1.5em;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 50vh;
 }
 
 form {
-    height: 50vh;
-    width: 50vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  height: 50vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .top-form {
-    display: flex;
-    gap: 3%;
-    justify-content: space-around;
-    width: 100%;
+  display: flex;
+  gap: 3%;
+  justify-content: space-around;
+  width: 100%;
 }
 
-.name-container, .email-container {
-    display: flex;
-    flex-direction: column;
+.name-container,
+.email-container {
+  display: flex;
+  flex-direction: column;
 }
 
 label {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 input {
-    font-size: 1.5em;
-    padding: 0.5em;
-    border: none;
-    outline: none;
-    background: rgba(174, 169, 169, 0.4);
+  font-size: 1.5em;
+  padding: 0.5em;
+  border: none;
+  outline: none;
+  background: rgba(174, 169, 169, 0.4);
 }
 
 .bottom {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    margin-left: 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 10%;
 }
 
 textarea {
-    border: none;
-    padding: 8px;
-    font-size: 1.5em;
-    outline: none;
-    background: rgba(174, 169, 169, 0.4);
-    width: 90%;
-    height: 20vh;
+  border: none;
+  padding: 8px;
+  font-size: 1.5em;
+  outline: none;
+  background: rgba(174, 169, 169, 0.4);
+  width: 90%;
+  height: 20vh;
 }
 
 .credit-right a img {
-    width: 32px;
+  width: 32px;
 }
 
-.left-credits, .credit-right {
-    margin: 0px 5%;
-    display: flex;
+.left-credits,
+.credit-right {
+  margin: 0px 5%;
+  display: flex;
 }
 
 .left-credits .logo-name {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 .credit-right {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .credit-contributors {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 .link-section {
-    display: flex;
-    justify-content: start;
+  display: flex;
+  justify-content: start;
 }
 
 .link-name {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .link-container a {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .submit {
-    margin-top: 8px;
-    width: 80px;
-    padding: 8px;
-    font-size: 1em;
-    border: none;
-    background: rgba(174, 169, 169, 0.4);
-    font-family: bree-serif;
-    align-self: end;
-    margin-right: 32px;
-    transition: all 200ms ease-in-out;
+  margin-top: 8px;
+  width: 80px;
+  padding: 8px;
+  font-size: 1em;
+  border: none;
+  background: rgba(174, 169, 169, 0.4);
+  font-family: bree-serif;
+  align-self: end;
+  margin-right: 32px;
+  transition: all 200ms ease-in-out;
 }
-
-/*ANIMATION*/
 
 header a {
-    color: white;
-    font-size: 1.5em;
-    transition: all 200ms ease-in-out;
-  
+  color: white;
+  font-size: 1.5em;
+  transition: all 200ms ease-in-out;
 }
-  
+
 header a:hover {
-    color:  purple;
-    font-size: 30px;
+  color: purple;
+  font-size: 30px;
 }
 
 .ig {
-    transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
 }
 
 .ig:hover {
-    transform: scale(1.5);
+  transform: scale(1.5);
 }
 
 .submit:hover {
-    transform: scale(1.3);
+  transform: scale(1.3);
 }
 
 .logo:hover {
-    transform: scale(1.4);
+  transform: scale(1.4);
 }
-
-/*MEDIA QUERIES*/
 
 @media screen and (max-width: 1000px) {
-    .tournament-title {
-        font-size: 1.2em;
-    }
+  .tournament-title {
+    font-size: 1.2em;
+  }
 
-    .highlight-text {
-        font-size: 0.8em;
-    }
+  .highlight-text {
+    font-size: 0.8em;
+  }
 
-    .contact-title {
-        font-size: 2em;
-    }
+  .contact-title {
+    font-size: 2em;
+  }
 
-    label, input {
-        font-size: 1em;
-    }
+  label,
+  input {
+    font-size: 1em;
+  }
 
-    .submit {
-        width: 100%;
-        margin-right: 0px;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .highlights img {
-        width: 300px;
-        height: 900px;
-    }
+  .submit {
+    width: 100%;
+    margin-right: 0px;
+  }
 }
 
 @media screen and (max-width: 700px) {
-    ul li a {
-        font-size: 1.3em;
-    }
+  ul li a {
+    font-size: 1.3em;
+  }
 
-    header ul li {
-        margin: 12px;
-    }
+  header ul li {
+    margin: 12px;
+  }
 
-    .tournament-title {
-        font-size: 1em;
-    }
+  .tournament-title {
+    font-size: 1em;
+  }
 
-    .card-container {
-        margin-bottom: 30vh;
-    }
+  .card-container {
+    margin-bottom: 30vh;
+  }
 
-    .highlight-text {
-        font-size: 0.6em;
-    }
+  .highlight-text {
+    font-size: 0.6em;
+  }
 
-    .highlight-text-container {
-        justify-content: space-evenly;
-    }
+  .highlight-text-container {
+    justify-content: space-evenly;
+  }
 
-    input {
-        width: 150px;
-    }
+  input {
+    width: 150px;
+  }
 
-    textarea {
-        height: 150px;
-    }
+  textarea {
+    height: 150px;
+  }
 
-    .contact-title {
-        font-size: 1.5em;
-    }
+  .contact-title {
+    font-size: 1.5em;
+  }
 
-    .contact-container {
-        gap: 20px;
-    }
+  .contact-container {
+    gap: 20px;
+  }
 
-    .contact-text {
-        font-size: 0.8em;
-    }
+  .contact-text {
+    font-size: 0.8em;
+  }
 
-    .left-credits .logo-name {
-        font-size: 1.5em;
-    }
+  .left-credits .logo-name {
+    font-size: 1.5em;
+  }
 }
 
 @media screen and (max-width: 500px) {
-    .highlights img {
-        display: none;
-    }
+  .highlights img {
+    display: none;
+  }
 
-    .highlights-container .title {
-        font-size: 3em;
-    }
+  .highlights-container .title {
+    font-size: 3em;
+  }
 
-    .card-container {
-        margin-bottom: 40vh;
-    }
+  .card-container {
+    margin-bottom: 40vh;
+  }
 
-    .logo-name {
-        font-size: 1em;
-    }
+  .logo-name {
+    font-size: 1em;
+  }
 
-    ul li a {
-        font-size: 0.8em;
-    }
+  ul li a {
+    font-size: 0.8em;
+  }
 
-    .contact-container {
-        flex-direction: column;
-        align-items: center;
-    }
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .contact-text {
-        width: 80vw;
-        align-self: center;
-    }
+  .contact-text {
+    width: 80vw;
+    align-self: center;
+  }
 
-    .contact-title {
-        width: 80vw;
-        align-self: center;
-    }
+  .contact-title {
+    width: 80vw;
+    align-self: center;
+  }
 
-    footer {
-        margin-top: 15vh;
-    }
+  footer {
+    margin-top: 15vh;
+  }
 
-    form {
-        width: 80vw;
-        margin-bottom: 5vh;
-    }
+  form {
+    width: 80vw;
+    margin-bottom: 5vh;
+  }
 
-    .left-credits .logo-name {
-        font-size: 0.8em;
-    }
+  .left-credits .logo-name {
+    font-size: 0.8em;
+  }
 
-    .credit-contributors {
-        font-size: 1.5em;
-    }
+  .credit-contributors {
+    font-size: 1.5em;
+  }
 }
 
 @media screen and (max-width: 500px) {
-    ul li a {
-        font-size: 0.8em;
-    }
+  ul li a {
+    font-size: 0.8em;
+  }
 
-    .left {
-        width: 150px;
-    }
+  .left {
+    width: 150px;
+  }
 
-    header ul li {
-        margin: 4px;
-    }
+  header ul li {
+    margin: 4px;
+  }
 
-    ul {
-        padding: 0px;
-    }
-    
-    .card-container {
-        margin-bottom: 50vh;
-    }
+  ul {
+    padding: 0px;
+  }
 
-    footer {
-        margin-top: 25vh;
-    }
-}
+  .card-container {
+    margin-bottom: 50vh;
+  }
 
-/*JAVASCRIPT with CSS*/
-
-#toggleMode {
-    width: 48px;
-    transition: all 200ms ease-in-out;
-}
-
-#toggleMode:hover {
-    transform: scale(1.5);
+  footer {
+    margin-top: 25vh;
+  }
 }
