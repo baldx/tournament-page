@@ -350,6 +350,13 @@ header a:hover {
     transform: scale(1.4);
 }
 
+.input:focus {
+    border: 3px solid var(--black);
+}
+
+.input {
+    transition: all 100ms ease-in-out;
+}
 /*MEDIA QUERIES*/
 
 @media screen and (max-width: 1000px) {
