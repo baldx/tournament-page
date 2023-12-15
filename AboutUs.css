@@ -169,7 +169,7 @@ h4{
 
 footer {
     color: white;
-    margin-top: 100vh; /*Leta efter bättre lösning*/
+    margin-top: 20vh; /*Leta efter bättre lösning*/
     background: var(--white);
     background: var(--dark-gray);
     height: 20vh;
