@@ -2,6 +2,8 @@ const submitBtn = document.querySelector('.submit');
 const joinLink = document.querySelectorAll('.join');
 const toggleBtn = document.querySelector('#toggleMode');
 const input = document.querySelectorAll('.input');
+const popUp = document.querySelector('.pop-up');
+const popUpBtn = document.querySelector('.popup-btn');
 
 submitBtn.addEventListener('click', (e) => {
     sendEmail()
@@ -10,7 +12,7 @@ submitBtn.addEventListener('click', (e) => {
 
 joinLink.forEach(e => {
     e.addEventListener('click', () => {
-        alert('You have joined the tournament!')
+        popUp.style.display = 'flex'
     })
 })
 
@@ -18,9 +20,13 @@ function sendEmail() {
     input.forEach(e => {
         e.value = '';
     })
-
     alert('Your message has been sent!')
 }
+
+popUpBtn.addEventListener('click', (e) => {
+    popUp.style.display = 'none'
+    e.preventDefault();
+})
 
 
 
