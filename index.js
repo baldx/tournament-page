@@ -28,7 +28,18 @@ popUpBtn.addEventListener('click', (e) => {
     e.preventDefault();
 })
 
+let isDark = false;
 
+toggleBtn.addEventListener('click', () => {
+    if (isDark) {
+        toggleBtn.setAttribute('src', 'assets/dark_mode_FILL0_wght400_GRAD0_opsz48.png');
+    } else {
+        toggleBtn.setAttribute('src', 'assets/light_mode_FILL0_wght400_GRAD0_opsz48.png');
+    }
+    
+    // Toggle the state
+    isDark = !isDark;
+});
 
 function toggleMode() {
     const body = document.body;
