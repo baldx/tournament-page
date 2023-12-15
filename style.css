@@ -12,6 +12,7 @@ body {
   background: var(--darker-white);
   overflow-x: hidden;
 }
+
 body.dark-mode {
   background-color: #222;
   color: #ddd;
@@ -20,7 +21,7 @@ body.dark-mode {
   color: white;
   }
   
-  }
+}
   
   
 @font-face {
