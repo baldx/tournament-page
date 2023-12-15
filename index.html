@@ -32,14 +32,31 @@
       </div>
     </div>
 
-    <main>
+    <main>  
+      <div class="pop-up">
+        <div class="pop-up-text bigger">Register now!</div>
+        <div class="pop-up-text">Enter the information below to register in the tournament</div>
+
+        <form class="popup-form">
+          <label for="username">Username*</label>
+          <input type="text" name="username" id="username" class="input">
+
+          <label for="email">Email*</label>
+          <input type="email" name="email" id="email" class="input">
+
+          <label for="number">Phone number*</label>
+          <input type="number" name="number" id="number" class="input">
+
+          <button type="submit" class="popup-btn">Submit</button>
+        </form>
+      </div>
       <div class="card-container">
         <div class="card">
             <img src="assets/ChessPreiumSet.png" alt="" class="image-card" />
             <div class="tournament-info">
                 <div class="tournament-title">
                     Grandmaster Clash Championship,
-                    <a href="" class="join">12/22, join now</a>
+                    <div class="join">12/22, join now</div>
                   </div>
                   <div class="tournament-text">
                       Witness global chess brilliance at the Grandmaster Clash
@@ -53,7 +70,7 @@
           <div class="tournament-info">
             <div class="tournament-title">
               Strategic Checkmate Showdown,
-              <a href="" class="join">9/11, join now</a>
+              <div class="join">9/11, join now</div>
             </div>
             <div class="tournament-text">
               Join the Strategic Checkmate Showdown, a chess tournament where players of 
@@ -66,7 +83,7 @@
             <div class="tournament-info">
                 <div class="tournament-title">
                     Knight's Gambit Invitational,
-                    <a href="" class="join">02/16, join now</a>
+                    <div class="join">02/16, join now</div>
                   </div>
                   <div class="tournament-text">
                       Experience the Knight's Gambit Invitational, a chess journey where players make bold moves 
