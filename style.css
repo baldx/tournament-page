@@ -178,6 +178,59 @@ main {
   width: 50vw;
 }
 
+.pop-up {
+  position: absolute;
+  height: 30vw;
+  width: 100vh;
+  background: var(--black);
+  align-self: center;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1em;
+  background: rgb(217, 212, 212);
+  color: black;
+  box-shadow: rgba(0, 0, 0, 1) 0px 3px 8px;
+}
+
+.join {
+  text-decoration: underline;
+}
+
+.popup-btn {
+  transition: 200ms ease-in-out;
+}
+
+.popup-btn:hover {
+  transform: scale(1.1);
+}
+
+.popup-form {
+  display: flex;
+  flex-direction: column;
+  width: inherit;
+  height: inherit;
+}
+
+.popup-form button {
+  width: 300px;
+  align-self: end;
+  margin-top: 1em;
+  padding: 0.5em;
+  font-size: 1.3em;
+  border: none;
+  background: rgba(174, 169, 169, 0.4);
+}
+
+.pop-up-text.bigger {
+  font-size: 2em;
+  margin-bottom: 8px;
+}
+
+.pop-up-text {
+  font-size: 1.5em;
+}
+
 /*FOOTER STYLE*/
 
 footer {
@@ -219,7 +272,7 @@ footer {
   height: 50vh;
 }
 
-form {
+footer form {
   height: 50vh;
   width: 50vw;
   display: flex;
