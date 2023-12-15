@@ -12,7 +12,17 @@ body {
   background: var(--darker-white);
   overflow-x: hidden;
 }
-
+body.dark-mode {
+  background-color: #222;
+  color: #ddd;
+  
+  .tournament-text, .tournament-title, .join, .title , .highlight-text {
+  color: white;
+  }
+  
+  }
+  
+  
 @font-face {
   font-family: bree-serif;
   src: url("assets/BreeSerif-Regular.ttf");
