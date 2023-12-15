@@ -12,6 +12,7 @@ body {
   background: var(--darker-white);
   overflow-x: hidden;
 }
+
 body.dark-mode {
   background-color: #222;
   color: #ddd;
@@ -208,11 +209,11 @@ main {
 }
 
 
-#modeToggle {
+#toggleMode {
   transition: 200ms ease-in-out;
 }
 
-#modeToggle:hover {
+#toggleMode:hover {
   transform: scale(1.3);
 }
 
