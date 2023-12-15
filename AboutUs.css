@@ -169,7 +169,7 @@ h4{
 
 footer {
     color: white;
-    margin-top: 100vh; /*Leta efter bättre lösning*/
+    margin-top: 20vh; /*Leta efter bättre lösning*/
     background: var(--white);
     background: var(--dark-gray);
     height: 20vh;
@@ -247,9 +247,11 @@ header a:hover {
     transform: scale(1.3);
 }
 
-.logo:hover {
+.animation:hover {
     transform: scale(1.4);
 }
+
+/*Media Quaries*/
 
 @media (max-width: 1024px){
 
@@ -273,7 +275,6 @@ header a:hover {
         margin-top: 15vh;
 
     }   
-
 
     span{
         margin: 1vh;
@@ -302,7 +303,6 @@ header a:hover {
         margin-top: 27vh;
 
     }   
-
 
     span{
         margin: 2vh;
