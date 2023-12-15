@@ -251,6 +251,8 @@ header a:hover {
     transform: scale(1.4);
 }
 
+/*Media Quaries*/
+
 @media (max-width: 1024px){
 
     .CenterImage{
@@ -273,7 +275,6 @@ header a:hover {
         margin-top: 15vh;
 
     }   
-
 
     span{
         margin: 1vh;
@@ -302,7 +303,6 @@ header a:hover {
         margin-top: 27vh;
 
     }   
-
 
     span{
         margin: 2vh;
