@@ -25,7 +25,9 @@ body.dark-mode {
   font-family: bree-serif;
   src: url("assets/BreeSerif-Regular.ttf");
 }
-
+p{
+    font-size: 24px;
+}
 header {
   background-color: var(--dark-gray);
   height: 15vh;
