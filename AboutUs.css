@@ -12,7 +12,17 @@ body {
     background: var(--darker-white);
     overflow-x: hidden;
 }
+body.dark-mode {
+    background-color: #222;
+    color: #ddd;
+    
+    h1 , h4, p, span{
+        color: white;
+    }
 
+  }
+
+  
 @font-face {
     font-family: bree-serif;
     src: url('assets/BreeSerif-Regular.ttf');
@@ -118,7 +128,7 @@ h4{
 .Paragraph-Text{
     height: 50vh;
     width: 40vw;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 100;
     display: flex;
     flex-direction: column;
