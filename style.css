@@ -201,11 +201,11 @@ main {
 
 .pop-up {
   position: absolute;
-  height: 30vw;
-  width: 100vh;
+  height: 50vh;
+  width: 50vw;
   background: var(--black);
   align-self: center;
-  display: none;
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 1em;
